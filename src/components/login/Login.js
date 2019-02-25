@@ -171,7 +171,7 @@ class Login extends React.Component {
                     this.register();
                   }}
               >
-                Login
+                Register
               </Button>
             </ButtonContainer>
           </Form>
