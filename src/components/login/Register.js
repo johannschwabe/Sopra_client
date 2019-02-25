@@ -84,7 +84,7 @@ class Register extends React.Component {
      * HTTP POST request is sent to the backend.
      * If the request is successful, a new user is returned to the front-end and its token is stored in the localStorage.
      */
-    login() {
+    register() {
         fetch(`${getDomain()}/users`, {
             method: "POST",
             headers: {
@@ -96,19 +96,12 @@ class Register extends React.Component {
                 password: this.state.password
             })
         })
-            .then(response => response.json())
-            .then(returnedUser => {
-                const user = new User(returnedUser);
-                // store the token into the local storage
-                localStorage.setItem("token", user.token);
-                // user login successfully worked --> navigate to the route /game in the GameRouter
-                this.props.history.push(`/game`);
-            })
+            this.props.history.push(`/login`)
             .catch(err => {
                 if (err.message.match(/Failed to fetch/)) {
                     alert("The server cannot be reached. Did you start it?");
                 } else {
-                    alert(`Something went wrong during the login: ${err.message}`);
+                    alert(`Something went wrong during the Registration: ${err.message}`);
                 }
             });
     }
@@ -162,10 +155,10 @@ class Register extends React.Component {
                         />
                         <ButtonContainer>
                             <Button
-                                disabled={!this.state.username || !this.state.name}
+                                disabled={!this.state.username || !this.state.name || !this.state.password}
                                 width="50%"
                                 onClick={() => {
-                                    this.login();
+                                    this.register();
                                 }}
                             >
                                 Register
