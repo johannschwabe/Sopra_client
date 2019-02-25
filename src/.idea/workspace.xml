@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1118f4ca-af35-45f2-aedb-27b293c788df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/components/login/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/login/Register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/shared/routers/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/routers/AppRouter.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -37,14 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/shared/routers/AppRouter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="45" column="28" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="69">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -61,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/login/Register.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="174" column="39" lean-forward="true" selection-start-line="174" selection-start-column="39" selection-end-line="174" selection-end-column="39" />
+            <state relative-caret-position="-1056">
+              <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -145,8 +143,8 @@
         <option value="$PROJECT_DIR$/views/Header.js" />
         <option value="$PROJECT_DIR$/components/shared/routeProtectors/RegisterGuard.js" />
         <option value="$PROJECT_DIR$/components/login/Login.js" />
-        <option value="$PROJECT_DIR$/components/login/Register.js" />
         <option value="$PROJECT_DIR$/components/shared/routers/AppRouter.js" />
+        <option value="$PROJECT_DIR$/components/login/Register.js" />
       </list>
     </option>
   </component>
@@ -275,12 +273,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551095312021</updated>
       <workItem from="1551095313256" duration="439000" />
-      <workItem from="1551114245835" duration="5757000" />
+      <workItem from="1551114245835" duration="5950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6196000" />
+    <option name="totallyTimeSpent" value="6389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="470" y="23" width="918" height="852" extended-state="0" />
@@ -450,16 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/login/Register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="174" column="39" lean-forward="true" selection-start-line="174" selection-start-column="39" selection-end-line="174" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/shared/routeProtectors/RegisterGuard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -478,8 +466,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/shared/routers/AppRouter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="28" />
+        <state relative-caret-position="69">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/login/Register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1056">
+          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

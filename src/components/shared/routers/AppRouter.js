@@ -4,6 +4,7 @@ import { GameGuard } from "../routeProtectors/GameGuard";
 import GameRouter from "./GameRouter";
 import { LoginGuard } from "../routeProtectors/LoginGuard";
 import Login from "../../login/Login";
+import Register from "../../login/Register";
 import {RegisterGuard} from "../routeProtectors/RegisterGuard";
 
 /**
@@ -43,7 +44,7 @@ class AppRouter extends React.Component {
               exact
               render={() => (
                   <RegisterGuard>
-                      <Login />
+                      <Register />
                   </RegisterGuard>
               )}
             />

@@ -65,7 +65,7 @@ const ButtonContainer = styled.div`
  * https://reactjs.org/docs/react-component.html
  * @Class
  */
-class Login extends React.Component {
+class Register extends React.Component {
     /**
      * If you don’t initialize the state and you don’t bind methods, you don’t need to implement a constructor for your React component.
      * The constructor for a React component is called before it is mounted (rendered).
