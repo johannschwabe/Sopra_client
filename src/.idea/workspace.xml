@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1118f4ca-af35-45f2-aedb-27b293c788df" name="Default Changelist" comment="" />
+    <list default="true" id="1118f4ca-af35-45f2-aedb-27b293c788df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/components/shared/routers/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/routers/AppRouter.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -38,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/shared/routers/AppRouter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="615">
+              <caret line="45" column="28" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="28" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -273,15 +275,16 @@
       <option name="presentableId" value="Default" />
       <updated>1551095312021</updated>
       <workItem from="1551095313256" duration="439000" />
-      <workItem from="1551114245835" duration="5595000" />
+      <workItem from="1551114245835" duration="5757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6034000" />
+    <option name="totallyTimeSpent" value="6196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="470" y="23" width="918" height="852" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24860647" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -475,8 +478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/shared/routers/AppRouter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        <state relative-caret-position="615">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

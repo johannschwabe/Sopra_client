@@ -43,7 +43,7 @@ class AppRouter extends React.Component {
               exact
               render={() => (
                   <RegisterGuard>
-                      <Register />
+                      <Login />
                   </RegisterGuard>
               )}
             />
