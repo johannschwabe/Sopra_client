@@ -110,6 +110,9 @@ class Login extends React.Component {
         }
       });
   }
+  register(){
+    this.props.history.push(`/register`);
+  }
 
   /**
    *  Every time the user enters something in the input field, the state gets updated.
@@ -157,6 +160,16 @@ class Login extends React.Component {
                 onClick={() => {
                   this.login();
                 }}
+              >
+                Login
+              </Button>
+            </ButtonContainer>
+            <ButtonContainer>
+              <Button
+                  width="50%"
+                  onClick={() => {
+                    this.register();
+                  }}
               >
                 Login
               </Button>
