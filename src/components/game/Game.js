@@ -13,8 +13,14 @@ const Container = styled(BaseContainer)`
 `;
 
 const Users = styled.ul`
-  list-style: none;
-  padding-left: 0;
+  list-style: square;
+  padding-left: 0px;
+`;
+const Button2 = styled(Button)`
+  border: #0e4370;
+  height: 40px;
+  border-style: solid;
+  background-color: darkcyan;
 `;
 
 const PlayerContainer = styled.li`
@@ -33,6 +39,16 @@ class Game extends React.Component {
   }
 
   logout() {
+    fetch(`${getDomain()}/logout`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        id: localStorage.getItem("id"),
+        token: localStorage.getItem("token")
+      })
+    })
     localStorage.removeItem("token");
     this.props.history.push("/login");
   }
@@ -41,7 +57,8 @@ class Game extends React.Component {
     fetch(`${getDomain()}/users`, {
       method: "GET",
       headers: {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "Access-Token": localStorage.getItem("token")
       }
     })
       .then(response => response.json())
@@ -63,7 +80,7 @@ class Game extends React.Component {
     return (
       <Container>
         <h2>Happy Coding! </h2>
-        <p>Get all users from secure end point:</p>
+        <p>Click on a User to display more informations</p>
         {!this.state.users ? (
           <Spinner />
         ) : (
@@ -71,9 +88,16 @@ class Game extends React.Component {
             <Users>
               {this.state.users.map(user => {
                 return (
-                  <PlayerContainer key={user.id}>
-                    <Player user={user} />
-                  </PlayerContainer>
+                    <PlayerContainer key={user.id}>
+                      <Button2
+                          width="100%"
+                          onClick={() => {
+                            this.props.history.push(`/game/info/${user.id}`)
+                          }}
+                      >
+                        {user.username}
+                      </Button2>
+                    </PlayerContainer>
                 );
               })}
             </Users>
@@ -85,6 +109,7 @@ class Game extends React.Component {
             >
               Logout
             </Button>
+
           </div>
         )}
       </Container>
