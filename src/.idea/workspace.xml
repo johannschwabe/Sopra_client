@@ -87,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/helpers/getDomain.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+              <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -296,12 +296,12 @@
       <updated>1551095312021</updated>
       <workItem from="1551095313256" duration="439000" />
       <workItem from="1551114245835" duration="6767000" />
-      <workItem from="1551163967609" duration="47943000" />
+      <workItem from="1551163967609" duration="48073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55149000" />
+    <option name="totallyTimeSpent" value="55279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="884" height="900" extended-state="6" />
@@ -587,7 +587,7 @@
     <entry file="file://$PROJECT_DIR$/helpers/getDomain.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
         </state>
       </provider>
     </entry>
