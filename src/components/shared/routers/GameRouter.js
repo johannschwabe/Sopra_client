@@ -2,8 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { Redirect, Route } from "react-router-dom";
 import Game from "../../game/Game";
-import {ProfileGuard} from "../routeProtectors/ProfileGuard";
-import Profile from "./AppRouter";
 import Info from "../../info/Info";
 
 const Container = styled.div`

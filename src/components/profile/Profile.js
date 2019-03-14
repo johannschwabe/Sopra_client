@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { BaseContainer } from "../../helpers/layout";
 import { getDomain } from "../../helpers/getDomain";
-import User from "../shared/models/User";
 import { withRouter } from "react-router-dom";
 import { Button } from "../../views/design/Button";
 
@@ -88,7 +87,8 @@ class Profile extends React.Component {
         fetch(`${getDomain()}/users/${localStorage.getItem("id")}`, {
             method: "PUT",
             headers: {
-                "Content-Type": "application/json"
+                "Content-Type": "application/json",
+                "Access-Token": localStorage.getItem("token")
             },
 
             body: JSON.stringify({

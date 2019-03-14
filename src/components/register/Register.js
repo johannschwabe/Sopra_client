@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { BaseContainer } from "../../helpers/layout";
 import { getDomain } from "../../helpers/getDomain";
-import User from "../shared/models/User";
 import { withRouter } from "react-router-dom";
 import { Button } from "../../views/design/Button";
 
@@ -102,7 +101,6 @@ class Register extends React.Component {
                     alert("Username already used");
                 }
                 else {
-                    const user = new User(returnedUser);
                     // user login successfully worked --> navigate to the route /login in the GameRouter
                     this.props.history.push(`/login`);
                 }
